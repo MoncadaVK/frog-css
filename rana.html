@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contanier {
+            background-color: rgba(58, 149, 59, 0.533);
+            width: 420px;
+            height: 330px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+        }
+
+        .cuadro {
+            width: 360px;
+            height: 270px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+         
+        }
+
+        .linea-2 {
+            width: 360px;
+            height: 90px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           
+        }
+
+        .frente1 {
+            height: 30px;
+            width: 360px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .cabeza1 {
+            background-color: rgb(132, 79, 0);
+            width: 60px;
+            height: 30px;
+            margin-left: 60px;
+        }
+
+        .cabeza2 {
+            background-color: rgba(132, 79, 0, 0);
+            width: 60px;
+            height: 30px;
+        }
+
+        .cabeza3 {
+            background-color: rgb(132, 79, 0);
+            width: 60px;
+            height: 30px;
+            margin-right: 60px;
+        }
+
+        .frente2 {
+            height: 30px;
+            width: 360px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .cafe1 {
+            background-color: rgb(132, 79, 0);
+            width: 30px;
+            height: 30px;
+            margin-left: 30px;
+        }
+
+        .cafe2 {
+            background-color: rgb(132, 79, 0);
+            width: 30px;
+            height: 30px;
+        }
+
+        .cafe3 {
+            background-color: rgb(132, 79, 0);
+            width: 30px;
+            height: 30px;
+        }
+
+        .cafe4 {
+            background-color: rgb(132, 79, 0);
+            width: 30px;
+            height: 30px;
+            margin-right: 30px;
+        }
+
+        .frente3 {
+            height: 30px;
+            width: 360px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .cafeborde1 {
+            background-color: rgb(132, 79, 0);
+            width: 30px;
+            height: 30px;
+            margin-left: 30px;
+        }
+
+        .ojoscafe1 {
+            background-color: rgb(132, 79, 0);
+            width: 30px;
+            height: 30px; 
+        }
+
+        .cafefrente {
+            background-color: rgb(132, 79, 0);
+            width: 60px;
+            height: 30px;
+        }
+
+        .ojoscafe2 {
+            background-color: rgb(132, 79, 0);
+            width: 30px;
+            height: 30px; 
+        }
+
+        .cafeborde2 {
+            background-color: rgb(132, 79, 0);
+            width: 30px;
+            height: 30px;
+            margin-right: 30px;
+        }
+
+        .linea-3 {
+            width: 360px;
+            height: 90px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ojos {
+            height: 30px;
+            width: 360px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .ojosborde1 {
+            background-color: rgb(132, 79, 0);
+            height: 30px;
+            width: 30px;
+        }
+
+        .ojos1 {
+            background-color: rgb(132, 79, 0);
+            height: 30px;
+            width: 30px;
+        }
+
+        .ojos2 {
+            background-color: rgb(132, 79, 0);
+            height: 30px;
+            width: 30px;
+        }
+
+        .ojosborde2 {
+            background-color: rgb(132, 79, 0);
+            height: 30px;
+            width: 30px;
+        }
+
+        .mejillas {
+            height: 30px;
+            width: 360px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .borde1 {
+            height: 30px;
+            width: 30px;
+            background-color: rgb(132, 79, 0);
+
+        }
+
+        .rosa1 {
+            height: 30px;
+            width: 60px;
+            background-color: pink;
+        }
+
+        .fondo {
+            height: 30px;
+            width: 60px;
+            background-color: rgba(58, 149, 59, 0);
+        }
+        
+        .rosa2 {
+            height: 30px;
+            width: 60px;
+            background-color: pink;
+        }
+
+        .borde2 {
+            height: 30px;
+            width: 30px;
+            background-color: rgb(132, 79, 0);
+
+        }
+        
+        .boca {
+            height: 30px;
+            width: 360px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+
+        .boca3 {
+        
+        background-color: rgb(132, 79, 0);
+        height: 30px;
+        width: 120px;
+        }
+
+        .boca1 {
+        
+            background-color: rgb(132, 79, 0);
+            height: 30px;
+            width: 30px;
+        }
+
+        .boca2 {
+        
+        background-color: rgb(132, 79, 0);
+        height: 30px;
+        width: 30px;
+        }
+
+        .linea-1 {
+            width: 360px;
+            height: 90px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-end;
+          
+        }
+
+        .linea1 {
+        background-color: rgb(132, 79, 0);
+        width: 30px;
+        height: 60px;
+        margin-bottom: 30px;
+       
+
+        }
+        
+        .linea3 {
+        background-color: rgb(132, 79, 0);
+        width: 300px;
+        height: 30px;
+      
+        }
+
+        .liena2 {
+        background-color: rgb(132, 79, 0);
+        width: 30px;
+        height: 60px;
+        margin-bottom: 30px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <nav class="contanier">
+
+        <div class="cuadro">
+            <div class="linea-2">
+                <div class="frente1">
+                    <div class="cabeza1"></div>
+                    <div class="cabeza2"></div>
+                    <div class="cabeza3"></div>
+
+                </div>
+
+                <div class="frente2">
+                    <div class="cafe1"></div>
+                    <div class="cafe2"></div>
+                    <div class="cafe3"></div>
+                    <div class="cafe4"></div>
+                </div>
+
+                <div class="frente3">
+                    <div class="cafeborde1"></div>
+                    <div class="ojoscafe1"></div>
+                    <div class="cafefrente"></div>
+                    <div class="ojoscafe2"></div>
+                    <div class="cafeborde2"></div>
+
+                </div>
+
+            </div>
+
+            <div class="linea-3">
+                <div class="ojos">
+                    <div class="ojosborde1"></div>
+                    <div class="ojos1"></div>
+                    <div class="verde"></div>
+                    <div class="ojos2"></div>
+                    <div class="ojosborde2"></div>
+                </div>
+
+                <div class="mejillas">
+                    <div class="borde1"></div>
+                    <div class="rosa1"></div>
+                    <div class="fondo"></div>
+                    <div class="rosa2"></div>
+                    <div class="borde2"></div>
+                </div>
+
+                <div class="boca">
+                    <div class="boca1"></div>
+                    <div class="boca3"></div>
+                    <div class="boca2"></div>
+                </div>
+            </div>
+
+
+            <div class="linea-1">
+                <div class="linea1"></div>
+                <div class="linea3"></div>
+                <div class="liena2"></div>
+            </div>
+        </div>
+
+
+    </nav>
+    
+</body>
+</html>
